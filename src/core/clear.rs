@@ -36,7 +36,7 @@ pub fn clear_me_from_history() -> Result<()> {
             );
     
             for line in file_contents.lines() {
-                let condition = line.contains("moonwalk") || line.contains("MOONWALK");
+                let condition = line.contains("moonwalk-back") || line.contains("MOONWALK-BACK");
     
                 if !condition {
                     write_buffer.push_str(line);
