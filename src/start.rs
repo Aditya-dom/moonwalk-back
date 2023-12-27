@@ -72,12 +72,12 @@ pub fn init() -> Result<()> {
         eprintln!(
             "{}\n\n{}{}\n{}{}\n{}{}\n",
             "\nUsage".bold().cyan(),
-            "Start moonwalk:".bold().magenta(),
-            "\n\n\t$ moonwalk start\n".bold(),
-            "Finish moonwalk and clear your traces:".bold().magenta(),
-            "\n\n\t$ moonwalk finish\n".bold(),
+            "Start moonwalk-back:".bold().magenta(),
+            "\n\n\t$ moonwalk-back start\n".bold(),
+            "Finish moonwalk-back and clear your traces:".bold().magenta(),
+            "\n\n\t$ moonwalk-back finish\n".bold(),
             "Get the current timestamp of a file to restore it later:".bold().magenta(),
-            "\n\n\t$ moonwalk get <FILENAME>".bold()
+            "\n\n\t$ moonwalk-back get <FILENAME>".bold()
         )
     }
 
