@@ -15,7 +15,7 @@ pub fn return_wr_dir() -> String {
     for dir_path in dir_list {
         if dir_path.contains('/') && FileSystem::file_exists(dir_path) {
             match FileSystem::create_dir(
-                &format!("{}/{}", dir_path, ".MOONWALK")
+                &format!("{}/{}", dir_path, ".MOONWALK-BACK")
             ) {
                 Ok(()) => return String::from(dir_path),
                 Err(_) => continue
