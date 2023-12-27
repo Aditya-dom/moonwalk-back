@@ -14,7 +14,7 @@ use super::{
 
 // set the logging directory inside a world writable directory in the target machine
 pub static TMP_LOG_DIR: Lazy<String> = Lazy::new(|| {
-    format!("{}/.MOONWALK", return_wr_dir())
+    format!("{}/.MOONWALK-BACK", return_wr_dir())
 });
 
 pub(crate) struct Logger;
