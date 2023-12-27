@@ -48,7 +48,7 @@ jobs:
       - name: Build for Mac
         run: cargo build --all --release && strip target/release/moonwalk && mv target/release/moonwalk target/release/moonwalk_darwin
 
-      - name: Release
+      - name: Releases
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
