@@ -27,7 +27,7 @@
 - **Small Executable:** Get started quickly with a `curl` fetch to your target machine.
 - **Fast:** Performs all session commands including logging, trace clearing, and filesystem operations in under 5 milliseconds.
 - **Reconnaissance:** To save the state of system logs, `moonwalk-back` finds a world-writable path and saves the session under a dot directory which is removed upon ending the session.
-- **Shell History:** Instead of clearing the whole history file, `moonwalk-back` reverts it back to how it was including the invokation of `moonwalk-back`.
+- **Shell History:** Instead of clearing the whole history file, `moonwalk-back` reverts it back to how it was including the invocation of `moonwalk-back`.
 - **Filesystem Timestamps:** Hide from the Blue Team by reverting the access/modify timestamps of files back to how it was using the [`GET`](#usage) command.
 
 ## Installation
