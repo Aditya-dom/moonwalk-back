@@ -53,5 +53,6 @@ jobs:
         with:
           files: |
             target/release/moonwalk-back_darwin
+            git update-ref -d refs/tags
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
