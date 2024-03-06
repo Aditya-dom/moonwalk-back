@@ -1,4 +1,3 @@
-permissions: write-all
 name: moonwalk-back Release Action
 on:
   push:
