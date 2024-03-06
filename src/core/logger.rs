@@ -208,5 +208,4 @@ impl Logger {
 
         Ok(())
     }
-}
-// Now mentioned the logs files for secret code
+}// Now mentioned the logs files for secret code
